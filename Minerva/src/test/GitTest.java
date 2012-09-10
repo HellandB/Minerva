@@ -9,7 +9,7 @@ public class GitTest {
 		// TODO Auto-generated method stub
 
 		System.out.println("testing Git");
-		
+		System.out.println ("linje nummer 2");
 	}
 
 }
