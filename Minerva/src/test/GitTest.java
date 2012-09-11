@@ -13,7 +13,7 @@ public class GitTest {
 		System.out.println("Git Minerva is Online and updating!");
 		//Denne kommentaren vil kun bli vist i testeBranch
 		
-		//lols
+		//lols  fsfsfsfs
 	}
 
 }
