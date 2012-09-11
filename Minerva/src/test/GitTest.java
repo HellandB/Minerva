@@ -9,11 +9,9 @@ public class GitTest {
 		
 		
 		// Master branch
-		System.out.println("testing testing");
-		System.out.println ("linje nummer 2");
 		System.out.println("Git Minerva is Online and updating!");
 		int lol = 0;
-		System.out.println(lol + "is working yet? Jokki");
+		System.out.println(lol + "Rikard branch");
 	}
 
 }
