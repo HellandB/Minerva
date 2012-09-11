@@ -13,7 +13,7 @@ public class GitTest {
 		System.out.println ("linje nummer 2");
 		System.out.println("Git Minerva is Online and updating!");
 	
-		sretyrtyrse
+		System.out.println("is working yet? Jokki");
 	}
 
 }
