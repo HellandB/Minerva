@@ -3,6 +3,15 @@ package tables;
 public class Rating {
 	private long userId;
 	private int rating;
+	private long raterId;
+
+	public long getRaterId() {
+		return raterId;
+	}
+
+	public void setRaterId(long raterId) {
+		this.raterId = raterId;
+	}
 
 	public Rating() {
 	}
@@ -11,7 +20,7 @@ public class Rating {
 		return userId;
 	}
 
-	private void setUserId(long userId) {
+	public void setUserId(long userId) {
 		this.userId = userId;
 	}
 

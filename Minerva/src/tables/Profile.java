@@ -4,7 +4,7 @@ import java.awt.Image;
 
 public class Profile {
 	private long userId;
-	private Image image;
+//	private Image image;
 	private String information;
 	private String location;
 	private String lastName;
@@ -21,13 +21,13 @@ public class Profile {
 		this.userId = userId;
 	}
 
-	public Image getImage() {
-		return image;
-	}
+//	public Image getImage() {
+//		return image;
+//	}
 
-	public void setImage(Image image) {
-		this.image = image;
-	}
+//	public void setImage(Image image) {
+//		this.image = image;
+//	}
 
 	public String getInformation() {
 		return information;
