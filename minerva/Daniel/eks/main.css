@@ -1,0 +1,158 @@
+/**
+ * # main.css
+ *
+ * DJ © 2012
+**/
+
+@CHARSET "ISO-8859-1";
+
+BODY {
+	font-family: sans-serif;
+	font-size: 0.7em;
+	margin: 0 auto;
+}
+
+/*** North container ***/
+#north {
+	background-color: #DD9;
+	border: 2px solid #000;
+	border-bottom: 0;
+/*	display: block;*/
+	margin: 0;
+	padding: 25px 30px 25px 30px;
+	height: 100px;
+	width: 900px;
+}
+/*** North header ***/
+#header {
+/*	display: inline;*/
+	float: left;
+	font-family: monospace;
+	font-size: 4.5em;
+	font-weight: 900;
+	letter-spacing: 18px;
+	text-decoration: none;
+/*	height: 50px;
+	width: 700px;*/
+}
+
+/*** Sign in-/up-field ***/
+#session_field {
+	float: right;
+/*	padding: 5px 0 5px 5px;
+	padding-right: 10px;
+	height: 100px;
+	width: 150px;*/
+}
+#session_field A:link, #session_field A:visited {
+	color: #07B;
+	font-family: sans-serif;
+	font-size: 0.9em;
+	font-weight: normal;
+	text-decoration: none;
+}
+#session_field A:hover, #session_field A:active {
+	text-decoration: underline;
+}
+
+#session_field INPUT[type='text'], #session_field INPUT[type='password'] {
+	border: 1px solid #000;
+	font-family: monospace;
+	font-size: 1.4em;
+	font-weight: normal;
+	margin-bottom: 5px;
+	padding: 8px;
+	width: 130px;
+}
+
+/*** Main navigation ***/
+#nav {
+	border: 2px solid #000;
+	border-bottom: 0;
+	margin: 0;
+	padding: 0;
+	height: 40px;
+	width: 960px;
+}
+#nav UL {
+	background-color: #BB7;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#nav LI {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+#nav UL A:link, #nav UL A:visited {
+	color: #07B;
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 1.2em;
+	padding: 12px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	height: 16px;
+	width: 110px;
+}
+#nav UL A:hover, #nav UL A:active {
+	background-color: #DD9;
+	color: #00F;
+}
+
+
+/*** Container middle ***/
+#center {
+	border: 2px solid #000;
+	border-bottom: 0;
+	
+	width: 960px;
+}
+
+/*** Sub navigation ***/
+#subNav {
+	background-color: #DD9;
+	border-right: 1px solid #000;
+	
+	height: 422px;
+	width: 147px;
+}
+#subNav UL {
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#subNav A:link, #subNav A:visited {
+/*	border-bottom: 1px solid #000;*/
+	color: #000;
+	display: block;
+	font-family: sans-serif;
+	font-size: 1.2em;
+	font-variant: small-caps;
+	font-weight: normal;
+	padding: 14px;
+	text-align: left;
+	text-decoration: none;
+	width: 119px;
+}
+#subNav A:hover, #subNav A:active {
+	background-color: #BB7;
+}
+
+
+/*** South container ***/
+#south {
+	background-color: #BB7;
+	border: 2px solid #000;
+	display: block;
+	font-family: 'Verdana', sans-serif;
+	font-size: 0.95em;
+	font-weight: normal;
+	padding: 5px 0;
+	text-align: center;
+	height: 30px;
+	width: 960px;
+}

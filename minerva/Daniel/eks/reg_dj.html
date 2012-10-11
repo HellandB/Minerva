@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Minerva Signup</title>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<meta name="author" content="dj" />
+<meta name="description" content="The Spike Project" />
+<style type="text/css">
+BODY {
+	font-family: monospace;
+	margin: 0 auto;
+	
+}
+H1 {
+	font-family: serif;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+
+/* #### TABLE #### */
+TABLE {
+	border: 2px solid #009;
+	text-align: center;
+}
+TH, TD {
+	padding: 5px;
+}
+
+/* #### INPUTs #### */
+INPUT {
+	border: 1px dotted #009;
+	padding: 8px;
+}
+INPUT:hover, INPUT:active {
+	border: 1px solid #00A;
+}
+INPUT[type="button"] {
+	cursor: pointer;
+}
+</style>
+<script type="text/javascript">
+var cookies = navigator.cookieEnabled;
+var theForm = document.body.childNodes[0].nodeName;
+var inputs = document.getElementsByTagName("input");
+document.write(document.body.childNodes[0]);
+
+document.getElementById("fillout_table").disabled = true;
+
+function hide_fillout() {
+/*	var ths = document.getElementsByTagName("th");
+	var tds = document.getElementsByTagName("td");
+	
+	var inputs = document.getElementsByTagName("input");*/
+	document.getElementById("fillout_table").style.visibility="hidden";
+//	document.getElementById("fillout_table").disabled = true;
+}
+function show_fillout() {
+	document.getElementById("fillout_table").style.visibility="visible";
+//	document.getElementById("fillout_table").disabled = false;
+}
+</script>
+</head>
+<body>
+<h1>Sign Up</h1>
+You can add additional profile information when signed up.
+<p><label for="facebook"><input type="radio" id="facebook" name="signup_method" onfocus="hide_fillout()" onclick="hide_fillout()" />&nbsp;Sign up using Facebook</label><br />
+<label for="fillout"><input type="radio" id="fillout" name="signup_method" onfocus="show_fillout()" onclick="show_fillout()" />&nbsp;Fill-out signup</label></p>
+<form action="" method="post">
+<table id="fillout_table">
+ <tr>
+  <th><label for="firstname">First name:</label></th>
+  <td><input type="text" id="firstname" /></td>
+ </tr><tr>
+  <th><label for="surname">Surname:</label></th>
+  <td><input type="text" id="surname" /></td>
+ </tr><tr>
+  <th><label for="emailaddr">E-mail address:</label></th>
+  <td><input type="email" id="emailaddr" /></td>
+ </tr><tr>
+  <th><label for="password1">Password:</label></th>
+  <td><input type="password" id="password1" /></td>
+ </tr><tr>
+  <th><label for="password2">Retype password:</label></th>
+  <td><input type="password" id="password2" /></td>
+ </tr><tr>
+  <td colspan="2"><input type="button" value="SIGN UP" /></td>
+ </tr>
+</table>
+</form>
+</body>
+</html>
